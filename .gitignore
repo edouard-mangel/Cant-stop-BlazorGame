@@ -1,0 +1,9 @@
+﻿################################################################################
+# Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/CantStop/v16
+/CantStop.Core/bin/Debug/netcoreapp3.1
+/CantStop.Core/obj
+/Tests/bin/Debug/netcoreapp3.1
+/Tests/obj

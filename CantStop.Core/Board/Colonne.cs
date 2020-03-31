@@ -3,7 +3,7 @@ using System;
 
 namespace CantStop.Core.Plateau
 {
-    public class Colonne
+    public class Colonne : IColumn
     {
         public int Valeur { get; private set; }
         public bool EstOuverte { get; set; }

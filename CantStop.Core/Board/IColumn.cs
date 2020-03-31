@@ -1,6 +1,6 @@
 ﻿namespace CantStop.Core.Plateau
 {
-    public interface IBoardGame
+    public interface IColumn
     {
     }
 }

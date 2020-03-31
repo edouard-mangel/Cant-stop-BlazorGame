@@ -1,8 +1,8 @@
-﻿using CantStop.Core.Lancer;
+﻿using CantStop.Core.Dices;
 
 namespace Tests
 {
-    internal class ResultatDesTest : ResultatLancer
+    internal class ResultatDesTest : RollResult
     {
         public ResultatDesTest() :base()
         {

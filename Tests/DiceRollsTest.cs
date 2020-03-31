@@ -1,5 +1,5 @@
 using CantStop.Core;
-using CantStop.Core.Lancer;
+using CantStop.Core.Dices;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +18,7 @@ namespace Tests
         [Fact]
         public void Test_dices_rolled_should_always_be_4()
         {
-            var lancer = LancerDes.Lancer();
+            var lancer = DiceRoll.Lancer();
 
             Assert.Equal(4, lancer.Count);
         }
@@ -26,7 +26,7 @@ namespace Tests
         [Fact]
         public void Test_dices_rolled_value_should_always_be_between_1_and_6()
         {
-            var lancer = LancerDes.Lancer();
+            var lancer = DiceRoll.Lancer();
 
             Assert.DoesNotContain(lancer, (d)=> d < 1 || d > 6);
         }

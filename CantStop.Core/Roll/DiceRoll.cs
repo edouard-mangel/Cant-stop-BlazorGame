@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace CantStop.Core
 {
-    public class LancerDes
+    public class DiceRoll
     {
         public static List<UInt16> Lancer()
         {
@@ -21,8 +21,5 @@ namespace CantStop.Core
 
             return (ushort)random.Next(minValue: 1, maxValue: 6);
         }
-
-        
-
     }
 }
